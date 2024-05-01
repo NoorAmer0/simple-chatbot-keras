@@ -1,9 +1,11 @@
-# AFRD: Arabic Fake Reviews Detection dataset
+# Chatbot for Abaya's Store using Keras
 - [Description](#description)
-- [Prerequisite](#Prerequisite)
-- [Files Descriptions](#Files Descriptions)
-- [Description](#description)
-- [Description](#description)
+- [Prerequisite](#prerequisite)
+- [Instructions](#instructions)
+- [Files Descriptions](#files-descriptions)
+- [Limitations](#limitations)
+- [Resources](#resources)
+
 
 ## Description
 In the current retail landscape, a significant number of customers prefer to engage with stores prior to making a purchase or visiting in person. However, many stores lack dedicated customer support personnel. This project aims to alleviate this issue by developing a chatbot designed to handle Frequently Asked Questions (FAQs) in a user-friendly manner, thereby reducing the workload on store employees.
@@ -30,11 +32,14 @@ The chatbot has been specifically designed for Abayas, a type of clothing worn b
 5. `app.py`: Run user interface.
 
 ## Limitations
-1. The `intents.json` file has a small data and may not reflect the real-world Abaya store experience.
+1. Small data size in `intents.json`.
+2. Data is generated personally, this may not reflect the real-world Abaya store experience.
+3. Can't handle continuous conversation.
 
 ## Resources
 [Creating Chatbots Using TensorFlow | Edureka](https://www.youtube.com/live/BBUvl9C6D-0?si=a8fh8sZ74XL4rDhd)
-[binary-hood/ChatBot](https://github.com/binary-hood/ChatBot)
+
+[User Interface from binary hood](https://github.com/binary-hood/ChatBot)
 
 
 
