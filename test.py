@@ -1,6 +1,5 @@
 import random
 from keras.preprocessing.sequence import pad_sequences
-import numpy as np
 from preprocessing import clean_up_sentence
 import keras
 import joblib
